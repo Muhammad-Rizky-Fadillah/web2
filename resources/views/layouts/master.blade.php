@@ -9,7 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>INVENTARIS</title>
+    @notifyCss
 
     <!-- Custom fonts for this template-->
     <link href="/sbadmin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -21,6 +22,9 @@
     <link href="/sbadmin/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
+
+    <x-notify::notify />
+    @notifyJs
 
 <body id="page-top">
 
